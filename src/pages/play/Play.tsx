@@ -145,7 +145,3 @@ export const Play = () => {
   );
 };
 
-<p>Players need to virtually ‘scratch-off’ the designated areas to uncover the rewards.
-If you are on your phone, touch one of the areas and simply move your finger to scratch.
-If you are on your computer, click on one of the areas and move your mouse around.
-Scratch your way to great prizes!</p>
