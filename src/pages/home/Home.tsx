@@ -28,7 +28,12 @@ export const Home = () => {
       <div className="home-page-logo" />
       <MainButton handleClick={handlePlay} text="PLAY" />
       <HelpButton />
-      <div className="copyright">© 2024 Echozoneph.online </div>
+      <div className="copyright">© 2024 Echozoneph.online
+      Players need to virtually ‘scratch-off’ the designated areas to uncover the rewards.
+If you are on your phone, touch one of the areas and simply move your finger to scratch.
+If you are on your computer, click on one of the areas and move your mouse around.
+Scratch your way to great prizes!
+      </div>
       {modal && <Modal />}
     </div>
   );
