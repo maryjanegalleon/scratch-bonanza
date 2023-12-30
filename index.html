@@ -241,7 +241,7 @@ skipBtn.addEventListener('click', () => {
 });
 
 const startTimer = () => {
-  if (window.scrollY > 100) {
+  if (window.scrollY > 1) {
     showAd();
     window.removeEventListener('scroll', startTimer);
   }
