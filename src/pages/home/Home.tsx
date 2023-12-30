@@ -26,15 +26,17 @@ export const Home = () => {
   return (
     <div className="home-page">
       <div className="home-page-logo" />
-     <div><iframe src="https://roaring-dodol-d54c59.netlify.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
-     </div>
+     
       <MainButton handleClick={handlePlay} text="PLAY" />
       <HelpButton />
       <div className="copyright">© 2024 Echozoneph.online
       </div>
       {modal && <Modal />}
     </div>
-  );
+
+    <iframe src="https://roaring-dodol-d54c59.netlify.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+   
+      );
 };
 
 
