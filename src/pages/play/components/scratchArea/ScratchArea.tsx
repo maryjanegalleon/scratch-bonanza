@@ -178,7 +178,7 @@ const ScratchArea = React.forwardRef<ScratchCard, IScratchAreaProps>(
           image="./assets/scratch_card.png"
           finishPercent={50}
           onComplete={handleComplete}
-          brushSize={17}
+          brushSize={50}
           fadeOutOnComplete={false}
         >
           <div className="scratcharea">
