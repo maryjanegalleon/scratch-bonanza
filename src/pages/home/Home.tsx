@@ -28,7 +28,7 @@ export const Home = () => {
       <div className="home-page-logo" />
       <MainButton handleClick={handlePlay} text="PLAY" />
       <HelpButton />
-      <div className="copyright">© 2023 Michael Kolesidis</div>
+      <div className="copyright">© 2023 Echozoneph.online </div>
       {modal && <Modal />}
     </div>
   );
