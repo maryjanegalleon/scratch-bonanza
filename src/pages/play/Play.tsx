@@ -36,7 +36,7 @@ export const Play = () => {
     addCard,
   } = useGame();
   const [scratchCard, setScratchCard] = useState<
-    (0 | 0.00004 | 0.0001 | 100 | 1000)[] | undefined
+    (0 | 0.00004 | 0.0001 | 100 | 1)[] | undefined
   >();
   const [key, setKey] = useState(0);
   const cardRef = useRef<CardRefType>(null);
