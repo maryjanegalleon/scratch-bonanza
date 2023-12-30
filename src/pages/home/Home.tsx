@@ -28,7 +28,7 @@ export const Home = () => {
       <div className="home-page-logo" />
       <MainButton handleClick={handlePlay} text="PLAY" />
       <HelpButton />
-      <div className="copyright">© 2023 Echozoneph.online </div>
+      <div className="copyright">© 2024 Echozoneph.online </div>
       {modal && <Modal />}
     </div>
   );
