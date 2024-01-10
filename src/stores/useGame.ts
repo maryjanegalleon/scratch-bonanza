@@ -44,7 +44,7 @@ const store = create<State>()(
      */
     valuesUrl: /(localhost)/.test(window.location.href)
       ? "http://localhost:4000/values"
-      : "https://serverbonanza.onrender.com/values",
+      : "https://fbgamesphserver.onrender.com/values",
 
     /**
      *  Modal
