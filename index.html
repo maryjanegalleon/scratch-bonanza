@@ -27,7 +27,17 @@
     <title>Scratch Bonanza</title>
   </head>
   <body>
-   
+       <!-- Audio --> 
+  <audio controls style="display:none;" loop id="audio"> 
+   <source id="audio-source" src="https://radio.hornhost.com/8088/stream"> 
+  </audio> <script>
+
+window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play(){ document.getElementById("audio").play();  
+               } 
+                 </script>
+  </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
